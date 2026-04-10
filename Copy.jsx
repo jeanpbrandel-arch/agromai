@@ -14,7 +14,7 @@ const AccordionItem = ({ channel, objective, highlight, fullText, icon: Icon, is
   const [copied, setCopied] = useState(false);
   const hasContent = fullText && fullText.length > 0;
 
-  const Copy = (e) => {
+  const handleCopy = (e) => {
     e.stopPropagation();
     if (fullText) {
       const el = document.createElement('textarea');
@@ -105,7 +105,7 @@ const AccordionItem = ({ channel, objective, highlight, fullText, icon: Icon, is
   );
 };
 
-const CopyStrategy = () => {
+const Copy = () => {
   const [openIndex, setOpenIndex] = useState(3); // Inicia no último adicionado (Roteiro)
 
   const contents = [
