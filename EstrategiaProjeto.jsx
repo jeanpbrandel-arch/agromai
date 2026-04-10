@@ -27,7 +27,7 @@ const ToolBadge = ({ name, usage }) => (
 );
 
 // --- COMPONENTE PRINCIPAL: ESTRATÉGIA DO PROJETO ---
-const ProjectStrategyView = () => {
+const EstrategiaProjeto = () => {
   return (
     <div className="min-h-screen bg-black p-4 md:p-8 font-sans">
       <div className="max-w-5xl mx-auto space-y-8 mb-10 text-slate-200">
