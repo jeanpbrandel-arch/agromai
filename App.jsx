@@ -14,7 +14,7 @@ function App() {
     { id: 'estrategia', label: 'Estratégia', component: <EstrategiaProjeto /> },
     { id: 'video', label: 'Vídeo', component: <VideoInstitucional /> },
     { id: 'carrossel', label: 'Carrossel', component: <Carrossel /> },
-    { id: 'copy', label: 'Copy', component: <Copy /> },
+    { id: 'copy', label: 'CopyStrategy', component: <CopyStrategy /> },
     { id: 'conclusao', label: 'Conclusão', component: <Conclusao /> },
   ];
 
