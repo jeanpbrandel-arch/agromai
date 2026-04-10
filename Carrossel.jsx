@@ -397,8 +397,8 @@ Visual: Campo agrícola moderno, Interface tecnológica, Satélite ou mapa
                     { icon: Bot, label: "Domínio de AI Agents" },
                     { icon: Layers, label: "Expansão de Escopo" },
                     { icon: Cpu, label: "Uso Estratégico de IA" },
-                    { icon: PenTool, label: "Processo Criativo" },
-                    { icon: BarChart3, label: "Marketing B2B" }
+                    { icon: PenTool, label: "Processo Criativo" }
+                    
                   ].map((item, idx) => (
                     <div key={idx} className="bg-white/5 border border-white/10 rounded-xl p-4 flex flex-col items-center justify-center text-center gap-3 hover:bg-[#22c55e]/10 hover:border-[#22c55e]/30 transition-colors">
                       <item.icon size={24} className="text-[#22c55e]" />
