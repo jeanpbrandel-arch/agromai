@@ -15,7 +15,7 @@ import {
   Briefcase
 } from 'lucide-react';
 
-const ConclusionView = () => {
+const Conclusao = () => {
   const [activeSection, setActiveSection] = useState(null);
 
   const learnings = [
