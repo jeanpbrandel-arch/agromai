@@ -9,7 +9,7 @@ const PromptSequence = ({ step, text }) => (
   <div className="bg-white/5 border border-white/10 p-3 rounded-lg space-y-2">
     <div className="flex justify-between items-center">
       <span className="text-[9px] bg-[#22c55e]/20 text-[#22c55e] px-2 py-0.5 rounded uppercase font-bold">
-        Cena {step}
+        Cenas {step}
       </span>
     </div>
     <p className="text-[11px] text-slate-300 font-mono leading-relaxed italic">{text}</p>
@@ -21,10 +21,24 @@ const VideoInstitucional = () => {
   const dubbingVideoUrl = "https://1drv.ms/v/c/e31113a6d749a6cc/IQQkunz3QXQiRKRQPJe9ypxiAU1Zkb_LSgASTEnlsQcujXw";
 
   const narrationLines = [
-    { step: "01", text: "A silhouette of a male farmer climbing into a large tractor in a vast field during a golden sunrise, cinematic lighting." },
-    { step: "02", text: "Aerial view of a red tractor plowing a dark soil field at dawn, creating long shadows, high resolution." },
-    { step: "03", text: "Top-down drone shot of a person standing in a green cornfield holding a digital tablet, slow zoom out." },
-    { step: "04", text: "A satellite orbiting Earth with solar panels extended, transitioning into a digital overlay of 'Smart Agriculture' with data points over a lush orchard." },
+    { step: "", text: ""A silhouette of a male farmer climbing into a large tractor in a vast field during a golden sunrise, cinematic lighting, 4k."
+
+"Aerial view of a red tractor plowing a dark soil field at dawn, creating long shadows, high resolution."
+
+"Top-down drone shot of a person standing in a green cornfield holding a digital tablet, slow zoom out."
+
+"A satellite orbiting Earth with solar panels extended, transitioning into a digital overlay of 'Smart Agriculture' with data points over a lush orchard."
+
+"A young Asian woman in a plaid shirt examining rice stalks while holding a tablet in a sunny field."
+
+"A man in a plaid shirt working on a tablet amidst tall, dry corn plants, sun flare effect."
+
+"Close-up of a farmer in a hat driving a vintage tractor during sunset, warm orange glow, silhouette style."
+
+"A happy female farmer in a red plaid shirt and cap carrying a wooden crate full of fresh vegetables on a dirt road between cornfields at sunset."
+
+"Futuristic digital logo animation for 'AgromAI', featuring glowing green circuit lines and purple 3D text against a black background." },
+    
   ];
 
   return (
