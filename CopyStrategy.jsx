@@ -105,7 +105,7 @@ const AccordionItem = ({ channel, objective, highlight, fullText, icon: Icon, is
   );
 };
 
-const Copy = () => {
+const CopyStrategy = () => {
   const [openIndex, setOpenIndex] = useState(3); // Inicia no último adicionado (Roteiro)
 
   const contents = [
@@ -173,4 +173,5 @@ const Copy = () => {
   );
 };
 
-export default Copy;
+export default CopyStrategy;
+}
