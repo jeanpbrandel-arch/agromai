@@ -3,7 +3,7 @@ import AnaliseEstrategica from './AnaliseEstrategica';
 import EstrategiaProjeto from './EstrategiaProjeto';
 import VideoInstitucional from './VideoInstitucional';
 import Carrossel from './Carrossel';
-import Copy from './Copy';
+import CopyStrategy from './CopyStrategy';
 import Conclusao from './Conclusao';
 
 function App() {
