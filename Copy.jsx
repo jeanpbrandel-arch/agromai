@@ -14,7 +14,7 @@ const AccordionItem = ({ channel, objective, highlight, fullText, icon: Icon, is
   const [copied, setCopied] = useState(false);
   const hasContent = fullText && fullText.length > 0;
 
-  const handleCopy = (e) => {
+  const Copy = (e) => {
     e.stopPropagation();
     if (fullText) {
       const el = document.createElement('textarea');
