@@ -29,7 +29,7 @@ const InfoBox = ({ icon: Icon, title, content, insight }) => (
 );
 
 // --- COMPONENTE PRINCIPAL: SOBRE A AGROMAI ---
-const AgromaiStrategyView = () => {
+const AnaliseEstrategica = () => {
   return (
     <div className="min-h-screen bg-black p-4 md:p-8 font-sans">
       <div className="max-w-5xl mx-auto space-y-8 mb-10 text-slate-200">
