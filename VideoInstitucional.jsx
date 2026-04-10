@@ -81,7 +81,7 @@ const VideoInstitucional = () => {
         <div className="space-y-8">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-full bg-[#22c55e] flex items-center justify-center text-black font-black text-sm shadow-[0_0_15px_rgba(34,197,94,0.3)]">01</div>
-            <h2 className="text-xl font-bold text-white uppercase tracking-wider">Vídeo Institucional (Workflow Híbrido)</h2>
+            <h3 className="text-xl font-bold text-white uppercase tracking-wider">Vídeo Institucional (Workflow Híbrido)</h3>
           </div>
 
           <section className="relative group">
