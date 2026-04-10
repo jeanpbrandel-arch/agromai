@@ -135,7 +135,7 @@ const Carrossel = () => {
               </span>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em]">IA Marketing Workflow</span>
             </div>
-            <h1 className="text-4xl font-black text-white uppercase tracking-tighter">Desafio 2: Carrossel Institucional</h1>
+            <h1 className="text-2xl font-black text-white uppercase tracking-tighter">Carrossel Institucional</h1>
             <p className="text-slate-400 text-sm italic mt-1">Trabalho real de marketing impulsionado por Agentes Autônomos de IA</p>
           </div>
           <div className="bg-white/5 px-4 py-3 rounded-lg border border-white/10 flex flex-col gap-1 shrink-0 min-w-[200px]">
@@ -171,7 +171,7 @@ const Carrossel = () => {
         {activeTab === 'process' && (
           <div className="space-y-12 animate-in fade-in slide-in-from-bottom-4 duration-500">
             <div className="flex gap-4 items-center">
-              <h3 className="text-lg font-bold text-white uppercase tracking-widest">Pipeline de Geração Visual</h3>
+              <h3 className="text-lg font-bold text-white uppercase tracking-widest">Geração Visual</h3>
               <div className="flex-1 h-px bg-white/10"></div>
               <ToolBadge name="Manus AI" type="MANUS" />
             </div>
