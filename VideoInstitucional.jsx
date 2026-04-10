@@ -68,7 +68,7 @@ const VideoInstitucional = () => {
               <span className="animate-pulse">●</span>
               <span className="text-[10px] font-bold uppercase tracking-[0.3em]">IA Audiovisual Showcase</span>
             </div>
-            <h1 className="text-4xl font-black text-white uppercase tracking-tighter">Agromai: Do Conceito ao Render</h1>
+            <h1 className="text-2xl font-black text-white uppercase tracking-tighter">Agromai: Do Conceito ao Render</h1>
             <p className="text-slate-400 text-sm">Documentação completa dos desafios de produção IA</p>
           </div>
           <div className="bg-white/5 px-4 py-2 rounded-lg border border-white/10 flex items-center gap-4 shrink-0">
