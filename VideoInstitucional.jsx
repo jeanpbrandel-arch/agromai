@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
  --- COMPONENTE DE APOIO CARD DE PROMPT ---
-const PromptSequence = ({ step, text }) = (
+const PromptSequence = ({ step, text }) => (
   div className=bg-white5 border border-white10 p-3 rounded-lg space-y-2
     div className=flex justify-between items-center
       span className=text-[9px] bg-[#22c55e]20 text-[#22c55e] px-2 py-0.5 rounded uppercase font-boldCena {step}span
