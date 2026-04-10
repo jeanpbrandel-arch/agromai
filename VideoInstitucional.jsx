@@ -199,7 +199,6 @@ const VideoInstitucional = () => {
 
         {/* Rodapé Final */}
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] text-slate-600 uppercase tracking-[0.2em]">
-          <div>Agromai © 2026 - IA Audiovisual Showcase</div>
         </div>
 
       </div>
