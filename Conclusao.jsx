@@ -58,9 +58,9 @@ const Conclusao = () => {
         <div className="border-l-4 border-[#22c55e] pl-6 space-y-2">
           <div className="flex items-center gap-2 text-[#22c55e]">
             <Trophy size={16} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.3em]">Project Finalization</span>
+            <span className="text-[10px] font-bold uppercase tracking-[0.3em]">Finalização de Projeto</span>
           </div>
-          <h1 className="text-4xl font-black text-white uppercase tracking-tighter">Conclusão & Valor Agregado</h1>
+          <h1 className="text-2xl font-black text-white uppercase tracking-tighter">Conclusão & Valor Agregado</h1>
           <p className="text-slate-400 text-sm max-w-2xl">
             Uma análise reflexiva sobre como a união entre criatividade humana e autonomia de IA pode transformar os processos de marketing da Agromai.
           </p>
