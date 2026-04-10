@@ -13,7 +13,7 @@ import {
   Info
 } from 'lucide-react';
 
- --- COMPONENTE DE APOIO CARD DE PROMPT ---
+// --- COMPONENTE DE APOIO CARD DE PROMPT ---
 const PromptSequence = ({ step, text }) => (
   div className=bg-white5 border border-white10 p-3 rounded-lg space-y-2
     div className=flex justify-between items-center
