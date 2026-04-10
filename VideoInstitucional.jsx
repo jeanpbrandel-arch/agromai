@@ -21,9 +21,10 @@ const VideoInstitucional = () => {
   const dubbingVideoUrl = "https://1drv.ms/v/c/e31113a6d749a6cc/IQQkunz3QXQiRKRQPJe9ypxiAU1Zkb_LSgASTEnlsQcujXw";
 
   const narrationLines = [
-    { step: "01", text: "O campo evoluiu. A tecnologia agora é a semente de cada grande decisão." },
-    { step: "02", text: "Apresentamos a Agromai: inteligência geoespacial conectando dados ao produtor rural." },
-    { step: "03", text: "Eficiência, precisão e rentabilidade. O futuro do agronegócio é digital." }
+    { step: "01", text: "A silhouette of a male farmer climbing into a large tractor in a vast field during a golden sunrise, cinematic lighting." },
+    { step: "02", text: "Aerial view of a red tractor plowing a dark soil field at dawn, creating long shadows, high resolution." },
+    { step: "03", text: "Top-down drone shot of a person standing in a green cornfield holding a digital tablet, slow zoom out." },
+    { step: "04", text: "A satellite orbiting Earth with solar panels extended, transitioning into a digital overlay of 'Smart Agriculture' with data points over a lush orchard." },
   ];
 
   return (
