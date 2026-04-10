@@ -15,12 +15,11 @@ import {
 
 // --- COMPONENTE DE APOIO: CARD DE PROMPT ---
 const PromptSequence = ({ step, text }) => (
-  <div className="bg-white/5 border border-white/10 p-3 rounded-lg space-y-2">
     <div className="flex justify-between items-center">
       <span className="text-[9px] bg-[#22c55e]/20 text-[#22c55e] px-2 py-0.5 rounded uppercase font-bold">Cena {step}</span>
     </div>
     <p className="text-[11px] text-slate-300 font-mono leading-relaxed italic">{text}</p>
-  </div>
+  
 );
 
 const VideoInstitucional = () => {
