@@ -138,11 +138,7 @@ const Carrossel = () => {
             <h1 className="text-2xl font-black text-white uppercase tracking-tighter">Carrossel Institucional</h1>
             <p className="text-slate-400 text-sm italic mt-1">Trabalho real de marketing impulsionado por Agentes Autônomos de IA</p>
           </div>
-          <div className="bg-white/5 px-4 py-3 rounded-lg border border-white/10 flex flex-col gap-1 shrink-0 min-w-[200px]">
-             <p className="text-[9px] text-[#22c55e] font-bold uppercase flex items-center gap-1"><Target size={10} /> Objetivo Central</p>
-             <p className="text-xs text-white font-bold uppercase tracking-tighter leading-tight">Apresentação Institucional Completa</p>
-             <p className="text-[10px] text-slate-400 mt-1">O que é • O que faz • Benefícios • Diferenciais</p>
-          </div>
+          
         </div>
 
         {/* NAVIGATION TABS */}
