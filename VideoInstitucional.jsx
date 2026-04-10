@@ -66,7 +66,7 @@ const VideoInstitucional = () => {
           <div>
             <div className="flex items-center gap-2 text-[#22c55e] mb-1">
               <span className="animate-pulse">●</span>
-              <span className="text-[10px] font-bold uppercase tracking-[0.3em]">IA Audiovisual Showcase</span>
+              <span className="text-[10px] font-bold uppercase tracking-[0.3em]">IA Audiovisual</span>
             </div>
             <h1 className="text-2xl font-black text-white uppercase tracking-tighter">Agromai: Do Conceito ao Render</h1>
             <p className="text-slate-400 text-sm">Documentação completa dos desafios de produção IA</p>
@@ -81,7 +81,7 @@ const VideoInstitucional = () => {
         <div className="space-y-8">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-full bg-[#22c55e] flex items-center justify-center text-black font-black text-sm shadow-[0_0_15px_rgba(34,197,94,0.3)]">01</div>
-            <h2 className="font-bold text-white uppercase tracking-wider">Vídeo Institucional </h2>
+            <h2 className="text-xl font-bold text-white uppercase tracking-wider">Vídeo Institucional </h2>
           </div>
 
           <section className="relative group">
@@ -90,7 +90,7 @@ const VideoInstitucional = () => {
               <div className="flex items-center justify-between px-6 py-4 border-b border-white/5 bg-white/0.02">
                 <div className="flex items-center gap-3">
                   <Video size={16} className="text-[#22c55e]" />
-                  <span className="text-[11px] font-bold text-slate-200 uppercase tracking-widest">Resultado Final: Storytelling Profissional</span>
+                  <span className="text-[11px] font-bold text-slate-200 uppercase tracking-widest">Resultado Final</span>
                 </div>
                 <div className="hidden sm:flex items-center gap-4 text-slate-500 font-mono text-[10px]">
                   <span>VEO • GOOGLE VIDS</span>
