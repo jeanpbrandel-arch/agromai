@@ -145,7 +145,7 @@ const CopyStrategy = () => {
         
         {/* HEADER AREA */}
         <div className="space-y-2 text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl font-black text-white tracking-tight uppercase">
+          <h1 className="text-3xl md:text-2xl font-black text-white tracking-tight uppercase">
             Estratégia de <span className="text-emerald-500">Copy</span>
           </h1>
           <p className="text-slate-500 text-sm">
