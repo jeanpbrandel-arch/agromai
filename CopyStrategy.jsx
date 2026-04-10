@@ -174,4 +174,3 @@ const CopyStrategy = () => {
 };
 
 export default CopyStrategy;
-}
