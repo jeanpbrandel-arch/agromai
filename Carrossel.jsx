@@ -52,7 +52,7 @@ const ToolBadge = ({ name, type }) => (
   </div>
 );
 
-const MarketingChallengeView = () => {
+const Carrossel = () => {
   const [activeTab, setActiveTab] = useState('process');
   const [currentSlide, setCurrentSlide] = useState(0);
 
