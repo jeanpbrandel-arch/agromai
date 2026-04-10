@@ -103,9 +103,9 @@ const EstrategiaProjeto = () => {
             <Cpu className="text-[#22c55e]" size={20} /> Stack de Ferramentas de IA
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <ToolBadge name="Gemini e GPT" usage="Raciocínio e Estratégia" />
-            <ToolBadge name="Runway Gen-3" usage="Geração de Vídeo" />
-            <ToolBadge name="Midjourney" usage="Visual e Satélite" />
+            <ToolBadge name="Gemini, GPT e Manus 1.6" usage="Raciocínio e Estratégia" />
+            <ToolBadge name="Ve0 3.1 e Google Vids" usage="Geração de Vídeo" />
+            <ToolBadge name="Manus e Nano Banana 2" usage="Carrossel" />
             <ToolBadge name="ElevenLabs" usage="Voz e Narração" />
           </div>
         </div>
